@@ -6,23 +6,39 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Barbeshop</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <header>
+  <header class="header">
 
-    <nav>
-      <a href="./index.html"><img src="./images/header/logo.svg" alt="Logo" width=" 68" height="54" /></a>
-      <ul>
-        <li><a href="#about">Про нас</a></li>
+    <nav class="navigation">
+      <a class="logo " href="./index.html">
+        <img class="logo-img" src="./images/header/logo.svg" alt="Logo" width=" 68" height="54" />
+      </a>
+      <ul class="menu">
+        <li  class="menu-item">
+          <a class="menu-link" href="#about">Про нас</a>
         </li>
-        <li><a href="#services">Послугі та ціни</a></li>
-        <li><a href="#our-team">Майстри</a></li>
-        <li><a href="#contacts">Контакти</a></li>
+        </li>
+        <li  class="menu-item">
+          <a class="menu-link" href="#services">Послугі та ціни</a>
+        </li>
+        <li  class="menu-item">
+          <a class="menu-link" href="#our-team">Майстри</a>
+        </li>
+        <li  class="menu-item">
+          <a class="menu-link" href="#contacts">Контакти</a>
+        </li>
       </ul>
     </nav>
-    <a href="tel:+380441111111">+38 044 111 11 11</a>
-    <button type="button">Онлайн-запис</button>
+    <a class="tel-link" href="tel:+380441111111">+38 044 111 11 11</a>
+    <button class="modal-btn" type="button">Онлайн-запис</button>
   </header>
   <main>
     <!-- hero -->
@@ -185,34 +201,35 @@
           </ul>
     </section>
 
-<div id="contacts">
+    <div id="contacts">
       <!-- CONTACT FORM -->
-    <section>
-      <h2>Онлайн-запись</h2>
-    </section>
-    
+      <section>
+        <h2>Онлайн-запись</h2>
+      </section>
 
-    <!-- CONTACT INFORMATION -->
-    <section>
-      <h2>Контакти</h2>
-      <address>
-        <uk>
-          <li>
-            <a href="https://goo.gl/maps/CHfqzZeuWjGkMBuR6" target="_blank" rel="noopener noreferrer">ул. Васильковская,
-              7а, Киев, 08132</a>
-          </li>
-          <li>
-            <a href="tel:+380441111111">+38 044 111 11 11</a>
-          </li>
-          <li>
-            <a href="mailto:barbeshop@gmail.com">barbeshop@gmail.com</a>
-          </li>
-        </uk>
-      </address>
-      <p>час роботи</p>
-      <p>Щоденно з 9:00 до 22:00/p>
-    </section>
-</div>
+
+      <!-- CONTACT INFORMATION -->
+      <section>
+        <h2>Контакти</h2>
+        <address>
+          <uk>
+            <li>
+              <a href="https://goo.gl/maps/CHfqzZeuWjGkMBuR6" target="_blank" rel="noopener noreferrer">ул.
+                Васильковская,
+                7а, Киев, 08132</a>
+            </li>
+            <li>
+              <a href="tel:+380441111111">+38 044 111 11 11</a>
+            </li>
+            <li>
+              <a href="mailto:barbeshop@gmail.com">barbeshop@gmail.com</a>
+            </li>
+          </uk>
+        </address>
+        <p>час роботи</p>
+        <p>Щоденно з 9:00 до 22:00/p>
+      </section>
+    </div>
   </main>
   <!-- FOOTER -->
   <footer>

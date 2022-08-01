@@ -1,0 +1,31 @@
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+ */
+
+.header {
+}
+.menu-link {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.33;
+	letter-spacing: 0.1em;
+}
+
+.tel-link {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.33;
+	letter-spacing: 0.1em;
+}
+
+.modal-btn {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.33;
+	letter-spacing: 0.9em;
+	text-transform: uppercase;
+}
