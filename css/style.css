@@ -51,16 +51,33 @@ body {
 }
 
 /* ===========COMPANENTS============== */
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.section {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
 .modal-btn {
+
+    border: 1px solid var(--accent-color);
+    border-radius: 25px;
+
     font-weight: 600;
     font-size: 12px;
     line-height: 1.33;
-    letter-spacing: 0.9em;
+    letter-spacing: 0.09em;
     text-transform: uppercase;
     /* прозрачний
 цвет */
     background-color: transparent;
     cursor: pointer;
+    padding: 12px 20px;
 }
 
 .modal-btn-theme-light {
@@ -78,6 +95,14 @@ var(--secondary-text-color-theme-dark); */
     background-color:
         var(--accent-color);
     color: var(--secondary-text-color-theme-dark);
+}
+
+.social-links-list {
+    display: flex;
+}
+
+.social-links-item:not(:last-child) {
+    margin-right: 40px;
 }
 
 .social-links-list-link {
@@ -100,6 +125,7 @@ var(--secondary-text-color-theme-dark); */
     line-height: 1.36;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .suptitle-theme-dark {
@@ -133,16 +159,47 @@ var(--secondary-text-color-theme-dark); */
     font-size: 42px;
     line-height: 1.17;
     letter-spacing: 0.05em;
-    color: #303030;
+
 }
 
 .title-theme-light {
     color: var(--main-text-color-theme-light);
 }
 
+.title-theme-dark {
+    color: #ffffff;
+}
+
 /* ========END
 COMPANENTS============ */
 /* =========header============*/
+.header {
+    padding: 32px 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 70px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+
 .menu-link {
     font-weight: 600;
     font-size:
@@ -162,6 +219,8 @@ COMPANENTS============ */
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.1em;
+    margin-left: auto;
+    margin-right: 40px;
 }
 
 .tel-link:hover,
@@ -172,23 +231,70 @@ COMPANENTS============ */
 /*
 =========end header============*/
 /* ============hero ===============*/
+.hero-container {
+    display: flex;
+}
+
+.hero-left-side {
+    width: 100px;
+}
+
+.hero-description {
+    max-width: 400px;
+}
+
 .hero-title {
     font-family:
         var(--secondary-font);
     font-size: 72px;
     line-height: 1.18;
     letter-spacing: 0.05em;
+    margin-bottom: 20px;
+    color: var(--secondary-text-color-theme-dark);
+}
+
+.hero-right-side {
+    padding-top: 272px;
+    padding-bottom: 208px;
+    padding-left: 100px;
+    flex-grow: 1;
+    background-color: #333;
 }
 
 /*
 ===========end hero ============*/
 /* ==========ABOUT================= */
+.about-container {
+    display: flex;
+}
+
+.about-left-side {
+    margin-right: 30px;
+}
+
+.about-list {
+    display: flex;
+}
+
 .about-text {
     font-size:
         14px;
     line-height: 1.86;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color-theme-light);
+    margin-bottom: 40px;
+}
+
+.about-title {
+    margin-bottom: 20px;
+}
+
+.about-description {
+    margin-bottom: 20px;
+}
+
+.about-list-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 /* ==========END ABOUT================= */
@@ -226,6 +332,30 @@ COMPANENTS============ */
 /*
 ================= /ADVANTAGES ================= */
 /* =============OUR TEAM =============== */
+.our-team {
+    background-color: #F7F7F7;
+
+}
+
+.our-title {
+    margin-bottom: 44px;
+}
+
+
+
+.our-team-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.our-team-list-item {
+    flex-basis: calc((100% - 90px) / 3);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
 .our-team-list-name {
     font-weight: 400;
     font-size: 18px;
@@ -233,6 +363,11 @@ COMPANENTS============ */
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--main-text-color-theme-light);
+    margin-bottom: 8px;
+}
+
+.our-team-list-content {
+    margin-top: 30px;
 }
 
 .our-team-list-position {

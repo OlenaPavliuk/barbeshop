@@ -16,87 +16,95 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body> 
+<body>
   <header class="header">
-
-    <nav class="navigation">
-      <a class="logo " href="./index.html">
-        <img class="logo-img" src="./images/header/logo.svg" alt="Logo" width=" 68" height="54" />
-      </a>
-      <ul class="menu list">
-        <li class="menu-item">
-          <a class="menu-link link" href="#about">Про нас</a>
-        </li>
-        </li>
-        <li class="menu-item">
-          <a class="menu-link link" href="#services">Послугі та ціни</a>
-        </li>
-        <li class="menu-item">
-          <a class="menu-link link" href="#our-team">Майстри</a>
-        </li>
-        <li class="menu-item">
-          <a class="menu-link link" href="#contacts">Контакти</a>
-        </li>
-      </ul>
-    </nav>
-    <a class="tel-link link" href="tel:+380441111111">+38 044 111 11 11</a>
-    <button class="modal-btn modal-btn-theme-dark" type="button">Онлайн-запис</button>
+    <div class="container header-container">
+      <nav class="navigation">
+        <a class="logo" href="./index.html">
+          <img class="logo-img" src="./images/header/logo.svg" alt="Logo" width=" 68" height="54" />
+        </a>
+        <ul class="menu list">
+          <li class="menu-item">
+            <a class="menu-link link" href="#about">Про нас</a>
+          </li>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link link" href="#services">Послугі та ціни</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link link" href="#our-team">Майстри</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link link" href="#contacts">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="tel-link link" href="tel:+380441111111">+38 044 111 11 11</a>
+      <button class="modal-btn modal-btn-theme-dark" type="button">Онлайн-запис</button>
+    </div>
   </header>
+
   <main>
     <!-- hero -->
     <section class="hero">
-      <div class="hero-left-side">
-        <ul class="social-links-list list">
-          <li class="social-links-item">
-            <a class="social-links-list-link link" href="" lang="en">Instagram</a>
-          </li>
-          <li class="social-links-item">
-            <a class="social-links-list-link link" href="" lang="en">Youtube</a>
-          </li>
-        </ul>
-      </div>
-      <div class="hero-right-side">
-        <p class="suptitle suptitle-theme-dark" lang="en">A hair salon for men in Kyiv</p>
-        <h1 class="hero-title" lang="en">Barbershop</h1>
-        <p class="description description-theme-dark">
-          Ми експерти у модних чоловічих стрижках. Працюємо швидко, обережно та зі смаком.
-        </p>
+      <div class="container hero-container">
+        <div class="hero-left-side">
+          <ul class="social-links-list list">
+            <li class="social-links-item">
+              <a class="social-links-list-link link" href="" lang="en">Instagram</a>
+            </li>
+            <li class="social-links-item">
+              <a class="social-links-list-link link" href="" lang="en">Youtube</a>
+            </li>
+          </ul>
+        </div>
+        <div class="hero-right-side">
+          <p class="suptitle suptitle-theme-dark" lang="en">A hair salon for men in Kyiv</p>
+          <h1 class="hero-title" lang="en">Barbershop</h1>
+          <p class="description description-theme-dark hero-description">
+            Ми експерти у модних чоловічих стрижках. Працюємо швидко, обережно та зі смаком.
+          </p>
+        </div>
       </div>
     </section>
 
     <!-- ABOUT -->
-    <section class="about" id="about">
-      <div class="about-left-side">
-        <ul class=" about-list list">
-          <li class="about-list-item">
-            <img class="about-list-img" src="./images/about/about-img1.jpg" alt="Стрижка" width="270" height="445" />
-          </li>
-          <li class="about-list-item">
-            <img class="about-list-img" src="./images/about/about-img2.jpg" alt="Стрижка" width="270" height="445" />
-          </li>
-        </ul>
-      </div>
-      <div class="about-right-side">
-        <h2 class="suptitle suptitle-theme-light">ПРО НАС</h2>
-        <p class="title title-theme-light">Найкращий Барбершоп твого міста</p>
-        <p class="description description-theme-light">Якщо ти хочеш додати у свій образ більше впевненості, тобі точно
-          до нас.
-        </p>
-        <p class="about-text">
-          Якщо ти хочеш додати у свій образ більше впевненості – тобі точно до нас. Ми команда,
-          яка ніколи не зупиняється на досягнутому і прагне змін. І коли ти потрапиш до рук нашого
-          майстра, то вже ніколи не зможеш бути тим самим. Ми команда, яка завжди з клієнтами "на
-          одній хвилі". Тому ми завжди готові вдосконалити кожного, хто до нас приходить!
-        </p>
-        <button class="modal-btn modal-btn-theme-light" type="button">онлайн-запис</button>
+    <section class="about section" id="about">
+      <div class="container about-container">
+        <div class="about-left-side">
+          <ul class=" about-list list">
+            <li class="about-list-item">
+              <img class="about-list-img" src="./images/about/about-img1.jpg" alt="Стрижка" width="270" height="445" />
+            </li>
+            <li class="about-list-item">
+              <img class="about-list-img" src="./images/about/about-img2.jpg" alt="Стрижка" width="270" height="445" />
+            </li>
+          </ul>
+        </div>
+        <div class="about-right-side">
+          <h2 class="suptitle suptitle-theme-light">ПРО НАС</h2>
+          <p class="title title-theme-light about-title">Найкращий Барбершоп твого міста</p>
+          <p class="description description-theme-light about-description">Якщо ти хочеш додати у свій образ більше впевненості, тобі
+            точно
+            до нас.
+          </p>
+          <p class="about-text">
+            Якщо ти хочеш додати у свій образ більше впевненості – тобі точно до нас. Ми команда,
+            яка ніколи не зупиняється на досягнутому і прагне змін. І коли ти потрапиш до рук нашого
+            майстра, то вже ніколи не зможеш бути тим самим. Ми команда, яка завжди з клієнтами "на
+            одній хвилі". Тому ми завжди готові вдосконалити кожного, хто до нас приходить!
+          </p>
+          <button class="modal-btn modal-btn-theme-light" type="button">онлайн-запис</button>
+        </div>
       </div>
     </section>
+
     <!-- SERVICES -->
-    <section class="services" id="services">
+    <section class="services section" id="services">
       <h2 class="suptitle suptitle-theme-dark">Проведи час у компанії кращих майстрів</h2>
       <p class="title">Послуги та ціни</p>
       <ul class="services-list list">
@@ -138,82 +146,98 @@
       <button class="modal-btn modal-btn-theme-dark" type="button">oнлайн-запис</button>
     </section>
     <!-- ADVANTAGES -->
-    <section class="advantages">
-      <div class="advantages-left-side">
-        <ul class="advantages-list list">
-          <li class="advantages-list-item">
-            <p class="advantages-list-count">600</p>
-            <p class="advantages-list-desc">Задоволених клієнтів на день</p>
-          </li>
-          <li class="advantages-list-item">
-            <p class="advantages-list-count">50</p>
-            <p class="advantages-list-desc">Нагород за відмінний сервіс</p>
-          </li>
-          <li class="advantages-list-item">
-            <p class="advantages-list-count">20</p>
-            <p class="advantages-list-desc">Найкращих майстрів Києва</p>
-          </li>
-          <li class="advantages-list-item">
-            <p class="advantages-list-count">100</p>
-            <p class="advantages-list-desc">Подарунків постійним клієнтам</p>
-          </li>
-        </ul>
-      </div>
-      <div class="advantages-right-side">
-        <p class="suptitle suptitle-theme-light">стара традиційна школа</p>
-        <h2 class="title title-theme-light">Чому приходять саме до нас?</h2>
-        <p class="description description-theme-light">
-          Про нас говорять лише добре. Але краще 1 раз побачити і відчути, ніж 10 разів прочитати.
-        </p>
+    <section class="advantages section">
+      <div class="container">
+        <div class="advantages-left-side">
+          <ul class="advantages-list list">
+            <li class="advantages-list-item">
+              <p class="advantages-list-count">600</p>
+              <p class="advantages-list-desc">Задоволених клієнтів на день</p>
+            </li>
+            <li class="advantages-list-item">
+              <p class="advantages-list-count">50</p>
+              <p class="advantages-list-desc">Нагород за відмінний сервіс</p>
+            </li>
+            <li class="advantages-list-item">
+              <p class="advantages-list-count">20</p>
+              <p class="advantages-list-desc">Найкращих майстрів Києва</p>
+            </li>
+            <li class="advantages-list-item">
+              <p class="advantages-list-count">100</p>
+              <p class="advantages-list-desc">Подарунків постійним клієнтам</p>
+            </li>
+          </ul>
+        </div>
+        <div class="advantages-right-side">
+          <p class="suptitle suptitle-theme-light">стара традиційна школа</p>
+          <h2 class="title title-theme-light">Чому приходять саме до нас?</h2>
+          <p class="description description-theme-light">
+            Про нас говорять лише добре. Але краще 1 раз побачити і відчути, ніж 10 разів прочитати.
+          </p>
+        </div>
       </div>
     </section>
     <!-- OUR TEAM -->
-    <section class="our-team" id="our-team">
-      <p class="suptitle suptitle-theme-light">для справжніх шанувальників атмосфери</p>
-      <h2 class="title title-theme-light">Наші майстри</h2>
-      <ul class="our-team-list list">
-        <li class="our-team-list-item">
-          <img class="our-team-list-img" src="./images/masters/john-smith.jpg" alt="мастер стрижет клиента" width="370"
-            height="346" />
-          <h3 class="our-team-list-name" lang="en">John Smith</h3>
-          <p class="our-team-list-position" lang="en">Extreme Barber</p>
-        </li>
-        <li class="our-team-list-item">
-          <img class="our-team-list-img" src="./images/masters/michele-doe.jpg" alt="мастер стрижет клиента" width="370"
-            height="346" />
-          <h3 class="our-team-list-name" lang="en">Michele Doe</h3>
-          <p class="our-team-list-position" lang="en">Extreme Barber</p>
-        </li>
-        <li class="our-team-list-item">
-          <img class="our-team-list-img" src="./images/masters/alan-black.jpg" alt="мастер стрижет клиента" width="370"
-            height="346" />
-          <h3 class="our-team-list-name" lang="en">Alan Black</h3>
-          <p class="our-team-list-position" lang="en">Extreme Barber</p>
-        </li>
-      </ul>
+    <section class="our-team section" id="our-team">
+      <div class="container">
+        <p class="suptitle suptitle-theme-light">для справжніх шанувальників атмосфери</p>
+        <h2 class="title title-theme-light our-title">Наші майстри</h2>
+        <ul class="our-team-list list">
+          <li class="our-team-list-item">
+            <img class="our-team-list-img" src="./images/masters/john-smith.jpg" alt="мастер стрижет клиента"
+              width="370" height="346" />
+            <div class="our-team-list-content">
+              <h3 class="our-team-list-name" lang="en">John Smith</h3>
+              <p class="our-team-list-position" lang="en">Extreme Barber</p>
+
+            </div>
+          </li>
+
+          <li class="our-team-list-item">
+            <img class="our-team-list-img" src="./images/masters/michele-doe.jpg" alt="мастер стрижет клиента"
+              width="370" height="346" />
+            <div class="our-team-list-content">
+              <h3 class="our-team-list-name" lang="en">Michele Doe</h3>
+              <p class="our-team-list-position" lang="en">Extreme Barber</p>
+
+            </div>
+          </li>
+          <li class="our-team-list-item">
+            <img class="our-team-list-img" src="./images/masters/alan-black.jpg" alt="мастер стрижет клиента"
+              width="370" height="346" />
+            <div class="our-team-list-content">
+              <h3 class="our-team-list-name" lang="en">Alan Black</h3>
+              <p class="our-team-list-position" lang="en">Extreme Barber</p>
+
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
     <!-- PORTFOLIO -->
-    <section class="portfolio">
-      <h2 hidden>Портфоліо </h2>
-      <p class="suptitle suptitle-theme-light">Латинською мовою "барба" означає "борода"</p>
-      <ul class="portfolio-list list">
-        <li class="portfolio-list-item">
-          <img class="portfolio-list-img" src="./images/gallery/portfolio-img-1.jpg" alt="Мастер" width="270"
-            height="360" />
-        </li>
-        <li class="portfolio-list-item">
-          <img class="portfolio-list-img" src="./images/gallery/portfolio-img-2.jpg" alt="Мастер" width="270"
-            height="360" />
-        </li>
-        <li class="portfolio--listitem">
-          <img class="portfolio-list-img" src="./images/gallery/portfolio-img-3.jpg" alt="Мастер" width="270"
-            height="360" />
-        </li>
-        <li class="portfolio-list-item">
-          <img class="portfolio-list-img" src="./images/gallery/portfolio-img-4.jpg" alt="Мастер" width="270"
-            height="360" />
-        </li>
-      </ul>
+    <section class="portfolio section">
+      <div class="container">
+        <h2 hidden>Портфоліо </h2>
+        <p class="suptitle suptitle-theme-light">Латинською мовою "барба" означає "борода"</p>
+        <ul class="portfolio-list list">
+          <li class="portfolio-list-item">
+            <img class="portfolio-list-img" src="./images/gallery/portfolio-img-1.jpg" alt="Мастер" width="270"
+              height="360" />
+          </li>
+          <li class="portfolio-list-item">
+            <img class="portfolio-list-img" src="./images/gallery/portfolio-img-2.jpg" alt="Мастер" width="270"
+              height="360" />
+          </li>
+          <li class="portfolio--listitem">
+            <img class="portfolio-list-img" src="./images/gallery/portfolio-img-3.jpg" alt="Мастер" width="270"
+              height="360" />
+          </li>
+          <li class="portfolio-list-item">
+            <img class="portfolio-list-img" src="./images/gallery/portfolio-img-4.jpg" alt="Мастер" width="270"
+              height="360" />
+          </li>
+        </ul>
+      </div>
     </section>
 
     <div id="contacts">
